@@ -1,5 +1,5 @@
 const router = require('express').Router();
-let User = require('../../models/ondex')
+let User = require('../../models')
 // CREATE new user
 router.post('/', async (req, res) => {
   try {
